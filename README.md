@@ -3,8 +3,10 @@
 TCP chat server written in Go with username, multiple rooms, and logging.
 
 ### Usage
+```
 go build -o TCPChat main.go <br>
 ./TCPChat [port]
+```
 
 The default port is 8989
 
@@ -18,5 +20,5 @@ The default port is 8989
 
 ### Logs
 
-Logs are stored in the logfiles directory, under this format:
-log_YYYY-MM-DD_HH-MM-SS.log
+Logs are stored in the logfiles directory, under this format :
+`log_YYYY-MM-DD_HH-MM-SS.log`
